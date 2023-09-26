@@ -14,7 +14,7 @@ public class HelloWorld {
 
         double tipperPerson = ((tipPercentage/100) * bill) / peopleNumber;
         double totalperPerson = (((tipPercentage/100) * bill) / peopleNumber) + (bill / peopleNumber);
-        System.out.print("Your tip per person value is: " + tipperPerson);
+        System.out.println("Your tip per person value is: " + tipperPerson);
         System.out.print("Your total per person value is: " + totalperPerson);
 
 
